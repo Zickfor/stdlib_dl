@@ -7,7 +7,8 @@ My small script for saving books from studentlibrary.ru in PDF.
 ```
 pip install pdfkit toml requests re beautifulsoup4
 ```
-**NB!** pdfkit uses wkhtmltopdf you have to install, please, read instructions according to your operating system.
+**NB!** pdfkit uses [wkhtmltopdf](https://wkhtmltopdf.org/index.html), so you have to install it, please, read instructions according to your operating system.
+
 2. Start script.
 3. Edit auto created **config.toml**
 * In section *auth* edit your SSr. You can get it from studentlibrary.ru url.
